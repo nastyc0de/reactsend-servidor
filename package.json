@@ -1,0 +1,20 @@
+{
+  "name": "react-send-servidor",
+  "version": "1.0.0",
+  "description": "proyecto de react-send del curso de Juan (aprendiendo react)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "author": "andres",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
